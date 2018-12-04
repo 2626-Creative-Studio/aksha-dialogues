@@ -1,0 +1,13 @@
+{
+  "name": "aksha",
+  "version": "1.0.0",
+  "description": "Simple HTML",
+  "main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "browser-sync start --server --files **/*"
+	},
+  "keywords": [],
+  "author": "Akshay Jain",
+  "license": "ISC"
+}

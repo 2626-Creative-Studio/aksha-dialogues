@@ -1,0 +1,198 @@
+﻿body {
+
+	.w-100 {
+		display: block;
+		width: 100%
+	}
+
+	.pb-20 {
+		padding-bottom: 20px;
+	}
+	.pt-20 {
+		padding-top: 20px;
+	}
+
+	.span-01 {
+		display: table-cell;
+		background: #68c557;
+		color: #ffffff;
+		padding: 10px 48px;
+		font-size: 14px;
+		font-weight: bold;
+		border-radius: 0px 23px 23px 0px;
+	}
+
+	td.large-4, th.large-4 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	img {
+		margin: 0px auto;
+		white-space: pre;
+		font-size: 12.8px;
+	}
+
+	a {
+		display: inline-block;
+	}
+
+	.container {
+		width: 700px;
+	}
+
+	#row01 {
+		width: 90%;
+		margin: 0 auto;
+
+		p {
+			font-size: 12.8px;
+		}
+	}
+
+	#row02 {
+		th {
+			padding-bottom: 50px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	#row03 {
+		width: 90%;
+		margin: auto;
+
+		a {
+			color: #000000;
+			font-size: 13px;
+			font-weight: bold;
+			display: inline;
+			text-decoration: underline;
+			img {
+				padding-bottom: 7px;
+			}
+		}
+		.div01{
+			display: table-cell;
+			width: 300px;
+			height: 140px;
+			background: #f26c4f;
+			text-align: center;
+			padding: 4px;
+			padding-bottom: 10px;
+			font-weight: bold;
+		}
+		.div02{
+			display: table-cell;
+			width: 300px;
+			height: 130px;
+			background: #00aeef;
+			text-align: center;
+			padding: 4px;
+			padding-bottom: 10px;
+		}
+	}
+
+	#row04 {
+		width: 90%;
+		margin: 0 auto;
+
+		p {
+			font-size: 14.4px;
+		}
+	}
+
+	#row05 {
+		margin: 0 auto;
+
+		p {
+			font-size: 13px;
+		}
+
+		a {
+			color: #000000;
+			font-size: 15px;
+			font-weight: bold;
+			text-decoration: underline;
+			display: inline-block;
+		}
+
+		.btn {
+			background: #6EB3BA;
+			padding: 0 16px;
+
+			a {
+				border: 0 solid #6EB3BA;
+				font-family: Arial;
+				font-size: 15px;
+				font-weight: normal;
+				font-size: 12.8px;
+			}
+		}
+	}
+
+	#in-the-news {
+		width: 90%;
+		margin: 0 auto;
+
+		.row {
+			span {
+				font-size: 24px;
+			}
+
+			p {
+				font-size: 12.8px;
+			}
+
+			a {
+				font-size: 12.8px;
+				padding: 5px 29px 0px 3px;
+				color: #000000;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	#footer {
+		background: #303131;
+
+		.row {
+			width: 90%;
+			margin: 0 auto;
+
+			.link {
+				color: #AFAFAF;
+				text-decoration: underline;
+			}
+
+			.columns {
+				padding: 0;
+			}
+
+			.inline {
+				float: right;
+
+				img {
+					display: inline-block;
+				}
+			}
+
+			.py-2 {
+				padding: 32px 0;
+			}
+
+			p {
+				color: #AFAFAF;
+				font-size: 12.8px;
+			}
+
+			span {
+				color: #AFAFAF;
+				font-size: 10px;
+			}
+		}
+	}
+}
