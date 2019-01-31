@@ -1,0 +1,36 @@
+#header {
+  .header-a{
+    display: inline-block;
+    width: 90px;
+    .ad-logo {
+      max-width: 90px;
+      margin: 0px;
+    }
+
+    .bm-logo {
+      max-width: 90px;
+      margin: 0px;
+    }
+  }
+  .header-th{
+    padding: 20px 50px !important;
+    .f{
+      .header-a {
+        display: inline-block;
+
+        .ad-logo {
+          margin: 0px;
+        }
+      }
+    }
+    .s{
+      vertical-align: middle;
+      text-align: right;
+      .header-a {
+        .bm-logo {
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
