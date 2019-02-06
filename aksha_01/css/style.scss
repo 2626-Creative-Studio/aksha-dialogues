@@ -72,6 +72,7 @@
 		p {
 			@extend %paragraph;
 			margin: 0px 25px;
+			text-align: justify;
 		}
 	}
 
@@ -91,10 +92,7 @@
 
 		p {
 			@extend %paragraph;
-			display: list-item;
-			list-style-image: url(http://aksha.com/newsletter/03/images/list-icon.jpg);
-			margin-left: 50px;
-			margin-right: 25px;
+			margin-left: 10px;
 		}
 
 	}
@@ -108,11 +106,10 @@
 			padding: 30px 50px !important;
 		}
 
-		a {
+		p {
 			@extend %paragraph;
-			display: list-item;
-			list-style-image: url(http://aksha.com/newsletter/03/images/list-icon.jpg);
-			margin-left: 25px;
+			margin-left: 10px;
+			height: 65px;
 		}
 	}
 
@@ -126,7 +123,6 @@
 		p {
 			@extend %paragraph;
 			text-align: center;
-			width: 60%;
 			margin: 15px auto;
 			margin-top: 0px;
 		}
