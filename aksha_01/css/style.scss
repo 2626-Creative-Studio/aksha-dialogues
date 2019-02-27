@@ -32,7 +32,11 @@
 		background: $light-grey;
 
 		.columns {
-			padding: 30px 50px!important;
+			padding: 30px 50px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
 		p {
@@ -62,7 +66,11 @@
 	#opinion {
 
 		.columns {
-			padding: 30px 50px!important;
+			padding: 30px 50px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
 		h1 {
@@ -79,7 +87,11 @@
 	#research {
 
 		.columns {
-			padding: 30px 50px!important;
+			padding: 30px 50px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
 		.blue-bold {
@@ -103,21 +115,36 @@
 		}
 
 		.colmn {
-			padding: 30px 50px !important;
+			padding: 30px 50px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
-		p {
+		.padng-lr{
+			padding: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		a {
 			@extend %paragraph;
-			margin-left: 10px;
-			height: 65px;
+			display: block;
+			//margin-left: 10px;
+			height: 90px;
 		}
 	}
 
 	#invite {
 		background: $light-grey;
 
-		.colmn{
-			padding: 20px 50px!important;
+		.colmn {
+			padding: 20px 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
 		p {
@@ -132,7 +159,11 @@
 		background: #303131;
 
 		.columns {
-			padding: 20px 50px!important;
+			padding: 20px 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 
 		p {
@@ -147,8 +178,9 @@
 		}
 
 		.rght {
+			padding-left: 0px;
 			.f {
-				padding-bottom: 70px;
+				padding-bottom: 43px;
 
 				img {
 					max-width: 70px;
