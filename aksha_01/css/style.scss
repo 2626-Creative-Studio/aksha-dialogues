@@ -46,10 +46,25 @@
 	}
 
 	#banner {
+		// .w-100 {
+		// 	width: 100% !important;
+		// }
+
+		// .columns {
+		// 	padding: 0px;
+		// 	padding-left: 0px;
+		// 	padding-right: 0px;
+		// }
+		td{
+			width: 50%;
+		}
 		.img-credit {
-			td {
-				width: 50%;
-			}
+			
+			// .columns {
+			// 	padding: 0px;
+			// 	padding-left: 0px;
+			// 	padding-right: 0px;
+			// }
 
 			.img-credit-td {
 				background: $light-grey;
@@ -58,10 +73,14 @@
 				p {
 					font-size: 10px;
 					margin-bottom: 0px;
+					//text-align: center;
 				}
 			}
 		}
+
 	}
+
+	
 
 	#opinion {
 
@@ -122,7 +141,7 @@
 			padding-right: 50px;
 		}
 
-		.padng-lr{
+		.padng-lr {
 			padding: 0px;
 			padding-left: 0px;
 			padding-right: 0px;
@@ -179,6 +198,7 @@
 
 		.rght {
 			padding-left: 0px;
+
 			.f {
 				padding-bottom: 43px;
 
